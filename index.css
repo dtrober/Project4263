@@ -1,0 +1,304 @@
+/*Custom Fonts*/
+
+@font-face {
+  src: url(fonts/blow.normal.ttf);
+  font-family: blow;
+}
+
+@font-face {
+  src: url(fonts/aAlloyInk.ttf);
+  font-family: alloy;
+}
+
+@font-face {
+  src: url(fonts/ghostmeat.ttf);
+  font-family: ghost;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url(images/BounceCastle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.bodyblur {
+  backdrop-filter: blur(10px);
+  height: 100%;
+}
+
+/*Navbar Classes*/
+
+nav {
+  background-color: whitesmoke;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.418);
+  height: 80px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+img.logo {
+  /*padding: 0 50px;*/
+  margin: 0;
+  position: inherit;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0 10px;
+  max-height: 75px;
+  max-width: 75px;
+  display: inline-flex;
+}
+
+.fflogotext {
+  margin: 0;
+  position: inherit;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0 10px;
+  display: none;
+  font-family: blow;
+  font-size: 2.2rem;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active,
+.navitem:hover {
+  background: whitesmoke;
+  transition: 0.5s;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/*Home Page Classes*/
+
+.sitelocation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+
+.Headerstyle {
+  color: white;
+  font-size: 12rem;
+  display: block;
+  font-family: blow;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(0, 0, 0, 0.404),
+    1px 22px 10px rgba(0, 0, 0, 0.219), 1px 25px 35px rgba(0, 0, 0, 0.212),
+    1px 30px 60px rgba(0, 0, 0, 0.397);
+}
+
+.HeaderstyleProduct {
+  color: white;
+  font-size: 12rem;
+  display: block;
+  font-family: blow;
+  text-align: center;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(0, 0, 0, 0.404),
+    1px 22px 10px rgba(0, 0, 0, 0.219), 1px 25px 35px rgba(0, 0, 0, 0.212),
+    1px 30px 60px rgba(0, 0, 0, 0.397);
+}
+
+.btnstyle {
+  position: static;
+  background: rgba(0, 0, 0, 0.2);
+  border-color: white;
+  border-radius: 35px;
+  border-width: 4px;
+  color: white;
+
+  padding: 25px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  z-index: -1;
+}
+
+.contain {
+  text-align: center;
+}
+
+/*Product Page Classes*/
+
+.ppbackdrop {
+  position: static;
+  margin: 0 auto;
+  z-index: 20;
+  min-height: 100%;
+  width: 80vw;
+  background-color: whitesmoke;
+  box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.8),
+    -12px 0 8px -4px rgba(0, 0, 0, 0.8);
+}
+
+.ppheader {
+  padding: 1rem;
+  font-family: blow;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+/*Media Queries*/
+
+@media (max-width: 1200px) {
+  .Headerstyle {
+    font-size: 10rem;
+    display: block;
+  }
+
+  .btnstyle {
+    font-size: 1.6rem;
+    padding: 23px;
+  }
+}
+
+@media (max-width: 925px) {
+  .Headerstyle {
+    font-size: 8rem;
+    display: block;
+  }
+
+  .btnstyle {
+    font-size: 1.4rem;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .Headerstyle {
+    font-size: 6rem;
+    display: block;
+  }
+}
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(233, 115, 99);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+    z-index: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  .navitem.active {
+    background: white;
+    color: black;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  img.logo {
+    display: none;
+  }
+
+  .fflogotext {
+    display: flex;
+  }
+
+  .Headerstyle {
+    display: none;
+  }
+}
+
+@media (max-width: 415px) {
+  body {
+    background-image: url(images/Inflatables\ -\ Smaller.png);
+  }
+}
