@@ -8,7 +8,7 @@
   $Email = $_POST['Email'];
   $Mess = $_POST['Mess'];
 
-  if ($dbconn->connect_error) 
+  if ($conn->connect_error) 
   {
     die("Database connection failed: " . $conn->connect_error);
   }
