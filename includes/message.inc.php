@@ -6,7 +6,7 @@
   $Fname = $_POST['Fname'];
   $Lname = $_POST['Fname'];
   $Email = $_POST['Email'];
-  $Message = $_POST['Mess'];
+  $Mess = $_POST['Mess'];
 
   $sql = "INSERT INTO Message (Fname, Lname, Email, Mess)" VALUES('$Fname', '$Lname', '$Email','$Mess');       
   mysqli_query($conn, $sql);
