@@ -2,8 +2,8 @@
 <?php
 
 $dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "AppleMakesBadPhones#8724";
+$dbUsername = "CON";
+$dbPassword = "A";
 $dbName = "TestDB";
 
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
