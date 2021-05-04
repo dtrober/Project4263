@@ -2,7 +2,7 @@
 <?php
 
 $dbServername = "TestDB";
-$dbUsername = "root"
+$dbUsername = "root";
 $dbPassword = "AppleMakesBadPhones#8724";
 $dbName = "TestDB";
 
