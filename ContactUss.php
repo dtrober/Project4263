@@ -35,53 +35,53 @@
       />
       <h2 class="fflogotext">Funflatablez</h2>
       <ul>
-        <li><a class="bilingualbtn1" href="ContactUss.php">español</a></li>
-        <li><a class="navitem" href="index.html">Home</a></li>
-        <li><a class="navitem" href="products.html">Products</a></li>
-        <li><a class="active navitem" href="ContactUs.php">Contact Us</a></li>
+        <li><a class="bilingualbtn2" href="ContactUs.html">English</a></li>
+        <li><a class="navitem" href="indexs.html">casa</a></li>
+        <li><a class="navitem" href="productss.html">productos</a></li>
+        <li><a class="active navitem" href="#">contactarnos</a></li>
       </ul>
     </nav>
     <section class="contact">
       <div class="content">
-        <h2>About Us</h2>
+        <h2>Sobre nosotros</h2>
         <p>
-          Here at Funflatablez, we believe in a personalized approach to
-          business. Please fill out this form and you will soon be in touch with
-          a representative who will assist you in your selection.
+          Aquí en Funflatablez, creemos en un enfoque personalizado para los
+          negocios. Complete este formulario y pronto se pondrá en contacto con
+          un representante que lo ayudará en su selección.
         </p>
       </div>
       <div class="container">
         <div class="Cinfo">
           <div class="Cicontainer">
             <div class="CiText">
-              <h3>Address</h3>
+              <h3>habla a</h3>
               <p>1234 First Street,<br />Oklahoma City, Oklahoma,<br />73123</p>
             </div>
           </div>
           <div class="Cicontainer">
             <div class="CiText">
-              <h3>Phone</h3>
+              <h3>Teléfono</h3>
               <p>123-123-1234</p>
             </div>
           </div>
           <div class="Cicontainer">
             <div class="CiText specialp">
-              <h3>Email</h3>
+              <h3>Correo electrónico</h3>
               <p>examplemail@email.comm</p>
             </div>
           </div>
         </div>
         <hr />
         <div class="contactForm">
-          <form action="includes/message.inc.php" method="POST">
-            <h2>CONTACT US</h2>
+        <form action="includes/message.inc.php" method="POST">
+            <h2>CONTÁCTENOS</h2>
             <div class="inputBox">
               <input type="text" name="Fname" maxlength="20" required="required" />
-              <span>First Name</span>
+              <span>primer nombre</span>
             </div>
             <div class="inputBox">
               <input type="text" name="Lname" maxlength="20" required="required" />
-              <span>Last Name</span>
+              <span>apellido</span>
             </div>
             <div class="inputBox">
               <input type="text" name="Email" maxlength="50" required="required" />
@@ -89,7 +89,7 @@
             </div>
             <div class="inputBox">
               <input type="text" name="Mess" maxlength="150" required="required" />
-              <span>Type your Message...</span>
+              <span>Escribe tu mensaje...</span>
             </div>
             <div class="inputBox CUButton">
               <input type="submit" name="" value="Send" />

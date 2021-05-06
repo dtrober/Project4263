@@ -19,15 +19,8 @@
   header("Location: ../ContactUs.php?message=success");
   }
 
-  $sql2 = "SELECT * FROM Message"
-  if (!mysqli_query($conn, $sql2)) 
-  {
-    die('An error occurred. Your review has not been submitted.');
-  } else 
-  {
-  echo "Thanks for your review.";
-  header("Location: ../ContactUs.php?message=success");
-  }
+  $sql2 = "SELECT * FROM Message";
+  mysqli_query($conn, $sql2);
 ?>
 
  

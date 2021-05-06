@@ -110,6 +110,38 @@ a.active,
   -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
+.bilingualbtn1 {
+  color: rgb(214, 164, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 2px solid rgb(214, 164, 0);
+}
+
+.bilingualbtn1:hover {
+  text-decoration: none;
+  color: rgb(214, 164, 0);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.bilingualbtn2 {
+  color: rgb(0, 170, 248);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 2px solid rgb(0, 170, 248);
+}
+
+.bilingualbtn2:hover {
+  text-decoration: none;
+  color: rgb(0, 170, 248);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
 .checkbtn {
   font-size: 30px;
   color: black;
@@ -149,8 +181,8 @@ a.active,
 }
 
 .HeaderstyleProduct {
-  color: white;
-  font-size: 12rem;
+  color: rgb(255, 255, 255);
+  font-size: 10rem;
   display: block;
   font-family: blow;
   text-align: center;
@@ -165,15 +197,22 @@ a.active,
 .btnstyle {
   position: static;
   background: rgba(0, 0, 0, 0.2);
-  border-color: white;
-  border-radius: 35px;
-  border-width: 4px;
+  border: 4px solid whitesmoke;
+  border-radius: 30px;
   color: white;
-
   padding: 25px;
   font-size: 1.8rem;
   font-weight: bold;
   z-index: -1;
+}
+
+.btnstyle:hover {
+  text-decoration: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  color: white;
 }
 
 .contain {
