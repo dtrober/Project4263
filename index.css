@@ -1,17 +1,17 @@
 /*Custom Fonts*/
 
 @font-face {
-  src: url(fonts/blow.normal.ttf);
+  src: url(Fonts/blow.normal.ttf);
   font-family: blow;
 }
 
 @font-face {
-  src: url(fonts/aAlloyInk.ttf);
+  src: url(Fonts/aAlloyInk.ttf);
   font-family: alloy;
 }
 
 @font-face {
-  src: url(fonts/ghostmeat.ttf);
+  src: url(Fonts/ghostmeat.ttf);
   font-family: ghost;
 }
 
