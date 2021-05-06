@@ -35,7 +35,7 @@
       />
       <h2 class="fflogotext">Funflatablez</h2>
       <ul>
-        <li><a class="bilingualbtn2" href="ContactUs.html">English</a></li>
+        <li><a class="bilingualbtn2" href="ContactUs.php">English</a></li>
         <li><a class="navitem" href="indexs.html">casa</a></li>
         <li><a class="navitem" href="productss.html">productos</a></li>
         <li><a class="active navitem" href="#">contactarnos</a></li>
@@ -55,19 +55,19 @@
           <div class="Cicontainer">
             <div class="CiText">
               <h3>habla a</h3>
-              <p>1234 First Street,<br />Oklahoma City, Oklahoma,<br />73123</p>
+              <p>123 First Street,<br />Oklahoma City, Oklahoma,<br />73123</p>
             </div>
           </div>
           <div class="Cicontainer">
             <div class="CiText">
               <h3>Teléfono</h3>
-              <p>123-123-1234</p>
+              <p>405-123-4567</p>
             </div>
           </div>
           <div class="Cicontainer">
             <div class="CiText specialp">
               <h3>Correo electrónico</h3>
-              <p>examplemail@email.comm</p>
+              <p>Funflatablez@gmail.com</p>
             </div>
           </div>
         </div>
@@ -77,15 +77,15 @@
             <h2>CONTÁCTENOS</h2>
             <div class="inputBox">
               <input type="text" name="Fname" maxlength="20" required="required" />
-              <span>primer nombre</span>
+              <span>Primer nombre</span>
             </div>
             <div class="inputBox">
               <input type="text" name="Lname" maxlength="20" required="required" />
-              <span>apellido</span>
+              <span>Apellido</span>
             </div>
             <div class="inputBox">
               <input type="text" name="Email" maxlength="50" required="required" />
-              <span>Email</span>
+              <span>Correo electrónico</span>
             </div>
             <div class="inputBox">
               <input type="text" name="Mess" maxlength="150" required="required" />

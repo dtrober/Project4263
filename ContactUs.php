@@ -55,19 +55,19 @@
           <div class="Cicontainer">
             <div class="CiText">
               <h3>Address</h3>
-              <p>1234 First Street,<br />Oklahoma City, Oklahoma,<br />73123</p>
+              <p>123 First Street,<br />Oklahoma City, Oklahoma,<br />73123</p>
             </div>
           </div>
           <div class="Cicontainer">
             <div class="CiText">
               <h3>Phone</h3>
-              <p>123-123-1234</p>
+              <p>405-123-4567</p>
             </div>
           </div>
           <div class="Cicontainer">
             <div class="CiText specialp">
               <h3>Email</h3>
-              <p>examplemail@email.comm</p>
+              <p>Funflatablez@gmail.com</p>
             </div>
           </div>
         </div>
