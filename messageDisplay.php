@@ -28,8 +28,6 @@
         echo "<a href='logout.php'> Logout</a> "; 
   ?>
 
-
-
   <?php
       $sql = "SELECT * FROM Message;";
       $result = mysqli_query($conn, $sql);
@@ -41,6 +39,7 @@
         }
       }
   ?>
+
   <table>
     <tr>
       <th>First Name</th>
@@ -62,14 +61,5 @@
       }
         ?>
   </table>
-
-
-<div>
-  <h2 class="HeaderstyleProduct">Messages</h2>
-      <div class="right">
-        <h1 class="cardheader"><?php echo $rows['Lname']?></h1>
-      </div>
-</div>
-
 </body>
 </html>

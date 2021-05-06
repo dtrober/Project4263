@@ -13,7 +13,7 @@
         if($user == "Admin" && $pass == "1234")  
           {                                     
             $_SESSION['use']=$user;
-           echo '<script type="text/javascript"> window.open("home.php","_self");</script>';
+           echo '<script type="text/javascript"> window.open("messageDisplay.php","_self");</script>';
           }
           else
           {
@@ -21,7 +21,6 @@
           }
   }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
